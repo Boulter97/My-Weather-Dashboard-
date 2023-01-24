@@ -1,14 +1,26 @@
 body {
+    background-image:url(../assets/images/fantasy-sky.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  min-height: 100vh;
     font-family: 'Times New Roman', Times, serif;
+   
+}
+#row {
+    font-size: large;
 }
 
 #search-form {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    font-size: large;
 }
 #search-form label {
     margin-right: 10px;
+    font-size: large;
 }
 
 #current-weather {
