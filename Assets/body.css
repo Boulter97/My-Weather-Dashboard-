@@ -1,12 +1,31 @@
 body {
-    background-image:url(../assets/images/fantasy-sky.jpeg);
+    background-image:url(../assets/images/weathersplitbackground.jpeg);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
-  min-height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    z-index: -1;
     font-family: 'Times New Roman', Times, serif;
    
+}
+#panel{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    text-align: center !important;
+    background-color: #f2f2f2 !important;
+    padding: 20px !important;
+    position: absolute;
+    z-index: 1 !important;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 #row {
     font-size: large;
@@ -40,7 +59,7 @@ body {
     flex-wrap: wrap;
 }
 
-.forecast-day {
+#forecast-day {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -48,7 +67,7 @@ body {
     margin-right: 10px;
 }
 
-.forecast-day img {
+#forecast-day img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
@@ -57,17 +76,17 @@ body {
 #search-history {
     margin-top: 20px;
 }
-.container {
+#container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.row {
+#row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-sm-6 {
+#col-sm-6 {
     width: 50%;
 }
