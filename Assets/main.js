@@ -1,11 +1,12 @@
-var apiKey = "93d4c98435c33eae6a138803f52421ec";
+var apiKey = "efbd3a3b69266572a5be3ec2308f31e";
+
 function fetchWeatherData(city) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
-.then(response => response.json())
-.then(data => {
-
-})
-.catch(error => console.log(error));
+        .then(response => response.json())
+        .then(data => {
+            displayCurrentWeather(data);
+        })
+        .catch(error => console.log(error));
 }
 
 function displayCurrentWeather(data) {
