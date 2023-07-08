@@ -1,65 +1,70 @@
 body {
-    background-image:url(../assets/images/weathersplitbackground.jpeg);
+    background-image: url(../assets/images/weathersplitbackground.jpeg);
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     min-height: 100vh;
-    position: relative;
-    z-index: -1;
     font-family: 'Times New Roman', Times, serif;
-   
-}
-#panel{
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
-#header {
-    text-align: center !important;
-    background-color: #f2f2f2 !important;
-    padding: 20px !important;
-    position: absolute;
-    z-index: 1 !important;
+#panel {
     width: 100%;
-    left: 0;
+    height: 50px;
+    position: absolute;
     top: 0;
-}
-#row {
-    font-size: large;
+    left: 0;
+    text-align: center;
+    background-color: navy;
+    padding: 20px;
+    color: white;
 }
 
-#search-form {
+.search-form {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: large;
 }
-#search-form label {
+
+.search-form label {
     margin-right: 10px;
     font-size: large;
 }
 
-#current-weather {
+.search-form .validate-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form .btn-search {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.current-weather-card {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 20px;
 }
 
-#current-weather img {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-}
-#forecast {
+.forecast-card {
     display: flex;
     flex-wrap: wrap;
 }
 
-#forecast-day {
+.forecast-day {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -67,26 +72,17 @@ body {
     margin-right: 10px;
 }
 
-#forecast-day img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-#search-history {
-    margin-top: 20px;
-}
-#container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-#row {
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-#col-sm-6 {
+.col-sm-6 {
     width: 50%;
 }
