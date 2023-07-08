@@ -20,6 +20,21 @@ body {
     color: white;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
 .search-form {
     display: flex;
     align-items: center;
@@ -32,16 +47,16 @@ body {
     font-size: large;
 }
 
-.search-form .validate-input {
+.search-form input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid silver;
     border-radius: 4px;
 }
 
-.search-form .btn-search {
+.search-form button {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -52,7 +67,7 @@ body {
     cursor: pointer;
 }
 
-.current-weather-card {
+#current-weather {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -72,17 +87,3 @@ body {
     margin-right: 10px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col-sm-6 {
-    width: 50%;
-}
