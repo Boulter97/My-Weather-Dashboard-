@@ -19,10 +19,17 @@ body {
 
   .container {
     max-width: 1200px;
-    margin: 90px auto 20px; /* Adjust the margin values as needed */
+    margin: 90px auto 20px; 
     padding: 20px;
   }
   
+  .current-weather-card {
+    background-color: gray !important;
+  }
+  .forecast-card {
+    margin-right: 10px;
+    background-color: gray !important;
+  }
 
 
 .row {
