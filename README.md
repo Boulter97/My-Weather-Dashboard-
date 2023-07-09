@@ -6,6 +6,7 @@ Weather Dashboard
 This homework is to build a weather dashboard using third party api's that will run in the browser and feature dynamically updated HTML and CSS.
 this project is not complete ass you can see, having trouble with javascript and some styling issues with css and api implentation.
 
+-Dev Notes :- this application works locally but wont deploy correctly futture work is needed.
  
 **User Story**
 -
