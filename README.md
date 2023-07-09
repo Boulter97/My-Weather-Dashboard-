@@ -23,7 +23,8 @@ this project is not complete ass you can see, having trouble with javascript and
 -
 -https://weather-dashboard101.netlify.app/
 
-![Screenshot 2023-01-24 at 8 35 54 pm](https://user-images.githubusercontent.com/118101244/214258295-89396bf4-a8b1-4800-a0f7-c2d684e493e5.png)
+<img width="1414" alt="Screenshot 2023-07-09 at 2 41 35 pm" src="https://github.com/Boulter97/My-Weather-Dashboard-/assets/118101244/5ba47234-bfe2-418f-8277-f81f11933a61">
+
 
 **API's**
 -
